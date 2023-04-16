@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Site para Carros </title>
+  <link href="./css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link href="./css/meuEstilo.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="row">
+      <nav class="navbar navbar-expand-sm navbar-light" id="neubar">
+        <div class="container navegacao">
+          <a class="navbar-brand" href="index.html"><img src="./imagens/logo.png" height="90" /></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto ">
+              <li class="nav-item">
+                <a class="nav-link mx-2 " aria-current="page" href="index.html">Pagina Inicial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2 " href="index2.html">Página 2</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2 active " href="index3.html">Página 3</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link mx-2 dropdown-toggle " href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Ir Para
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#colunaCarros">Lista de Carros</a></li>
+                  <li><a class="dropdown-item" href="#depoimentos">Depoimentos</a></li>
+                  <li><a class="dropdown-item" href="#mapa">Entre em Contato</a></li>
+                  <li><a class="dropdown-item" href="#redesSociais">Redes Sociais</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+              <img src="./imagens/slide1.jpg" alt="Carro muito bonito" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5><b>PRIMEIRO SLIDE</b></h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <img src="./imagens/coluna1.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <img src="./imagens/slide3.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="colunaCarros" class="row colunas">
+      <div class="col tresColunas">
+        <img src="./imagens/coluna1.jpg" class="img-fluid" alt="Coluna 1">
+        <h3>Primeiro Carro</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, enim quam delectus iusto dolore similique,
+          hic voluptas aut dignissimos sed quis quidem labore consequatur. Repudiandae iure sit impedit libero
+          laboriosam.</p>
+        <button class="btn btn-outline-secondary">Saiba Mais</button>
+      </div>
+      <div class="col tresColunas">
+        <img src="./imagens/coluna1.jpg" alt="Coluna 1" class="img-fluid">
+        <h3>Primeiro Carro</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, enim quam delectus iusto dolore similique,
+          hic voluptas aut dignissimos sed quis quidem labore consequatur. Repudiandae iure sit impedit libero
+          laboriosam.</p>
+        <button class="btn btn-outline-secondary">Saiba Mais</button>
+      </div>
+      <div class="col tresColunas">
+        <img src="./imagens/coluna1.jpg" alt="Coluna 1" class="img-fluid">
+        <h3>Primeiro Carro</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, enim quam delectus iusto dolore similique,
+          hic voluptas aut dignissimos sed quis quidem labore consequatur. Repudiandae iure sit impedit libero
+          laboriosam.</p>
+        <button class="btn btn-outline-secondary ">Saiba Mais</button>
+      </div>
+    </div>
+
+    <div id="depoimentos" class="text-center p-1">
+      <h1 class="depoimento">Depoimentos</h1>
+      <p class="paragrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui soluta veniam fugiat eligendi
+        labore rerum libero velit dicta dignissimos, accusantium eius minus delectus corporis harum distinctio facere
+        officia fuga nobis!</p>
+    </div>
+
+
+    <div id="mapa" class="text-center p-1">
+      <h1>Entre em Contato</h1>
+    </div>
+    <br />
+
+    <!--Google map-->
+    <div class="row mapa">
+      <div class="col-md-6">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15669.949883783996!2d-37.072229549999996!3d-10.926502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71ab3f0b6497777%3A0x7b47144950f4af68!2sUNINASSAU%20-%20Aracaju!5e0!3m2!1spt-BR!2sbr!4v1681620197772!5m2!1spt-BR!2sbr"
+          class="h-100 w-100" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="col-md-6">
+        <form class="my-form">
+          <div class="form-group">
+            <label for="form-name">Nome: </label>
+            <input type="email" class="form-control" id="form-name" placeholder="Nome">
+          </div>
+          <div class="form-group">
+            <label for="form-email">Email: </label>
+            <input type="email" class="form-control" id="form-email" placeholder="Seu Email">
+          </div>
+          <div class="form-group">
+            <label for="form-subject">Telefone: </label>
+            <input type="text" class="form-control" id="form-subject" placeholder="Telefone">
+          </div>
+          <div class="form-group">
+            <label for="form-message">Deixe sua mensagem: </label>
+            <textarea class="form-control" id="form-message" placeholder="Menssagem"></textarea>
+          </div>
+          <button class="btn btn-outline-secondary" type="submit">Enviar</button>
+        </form>
+      </div>
+
+
+
+    </div>
+
+    <footer id="redesSociais" class="bg-light text-center text-white">
+      <div id="rodape" class="text-center p-5" style="background-color: rgba(21, 20, 20, 0.2);">
+        <!-- Grid container -->
+
+        <!-- Section: Social media -->
+        <section class="mb-4 rodape">
+          <!-- Facebook -->
+          <a class="btn text-white btn-floating m-1" style="background-color: #3b5998;"
+            href="https://github.com/brunofndes" role="button" target="_blank"><i class="fab fa-facebook-f"></i></a>
+
+          <!-- Twitter -->
+          <a class="btn text-white btn-floating m-1" style="background-color: #55acee;"
+            href="https://github.com/brunofndes" target="_blank" role="button"><i class="fab fa-twitter"></i></a>
+
+          <!-- Google -->
+          <a class="btn text-white btn-floating m-1" style="background-color: #dd4b39;"
+            href="https://github.com/brunofndes" target="_blank" role="button"><i class="fab fa-google"></i></a>
+
+          <!-- Instagram -->
+          <a class="btn text-white btn-floating m-1" style="background-color: #ac2bac;"
+            href="https://github.com/brunofndes" target="_blank" role="button"><i class="fab fa-instagram"></i></a>
+
+          <!-- Linkedin -->
+          <a class="btn text-white btn-floating m-1" style="background-color: #0082ca;"
+            href="https://www.linkedin.com/in/brunofndes/" target="_blank" role="button"><i
+              class="fab fa-linkedin-in"></i></a>
+
+          <!-- Github -->
+          <a class="btn text-white btn-floating m-1" style="background-color: #333333;"
+            href="https://github.com/brunofndes" role="button" target="_blank"><i class="fab fa-github"></i></a>
+        </section>
+
+        <!-- Copyright -->
+        © 2023 Copyright: <a class="text-white" href="https://github.com/brunofndes" target="_blank">Bruno Fernandes</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+      integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous">
+    </script>
+    <script src="./js/bootstrap.min.js"
+      integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+
+
+
+</body>
+
+</html>

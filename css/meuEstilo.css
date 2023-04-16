@@ -1,0 +1,92 @@
+#logoTopo {
+  width: 100px;
+}
+
+.container {
+  max-width:960px;
+  margin: 0 auto;
+  border: 1px solid lightgrey;
+  box-sizing: border-box;
+  padding:5px;
+  background-color: white;
+  box-shadow: 3px 3px 3px grey;
+  border-radius: 3px;
+}
+
+.navegacao {
+  max-width:960px;    
+  background-color: white;
+  box-shadow: 0px 0px 0px white;
+  border-radius: 0px; 
+  border-top:none; 
+  box-shadow: 3px 3px 3px grey;
+}
+
+.colunas {
+  margin-top:50px;
+  margin-bottom:50px;
+  padding:5px;
+}
+.tresColunas > img {  
+  border:1px solid lightgrey;
+  box-shadow: 1px 1px 3px lightgrey;
+  margin-bottom:10px;
+}
+
+.depoimento{
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
+.paragrafo{
+  margin-top:50px;
+  margin-bottom:80px;
+}
+
+.my-form {
+  color: grey ;
+}
+
+.my-form .form-control {
+  border-radius: 0;
+}
+
+.mapa{
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
+#rodape{  
+    margin-top:100px;    
+}
+
+.nav-item .active {
+  border-radius: 6px;
+  background: linear-gradient(145deg, lightgrey, white);
+  box-shadow:  4px 4px 8px lightgrey,
+               -4px -4px 8px lightgrey;
+}
+#neubar .dropdown-menu a:hover {
+  color: #454545
+}
+#neubar .nav-item {
+  margin : auto 4px;
+}
+#neubar a {
+
+  padding-left:12px;
+  padding-right:12px;
+}
+#neubar .dropdown-menu {
+  background : lightgrey
+}
+a.navbar-brand {
+  color: lightgrey
+}
+
+
+  
+  
+
+
+
